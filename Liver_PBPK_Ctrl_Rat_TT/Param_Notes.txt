@@ -1,0 +1,31 @@
+Typical rat weight in Kim etal (2022) study is ~250 g (BW). 
+We chose to use rat weight of 277 g based on Hall etal (2012).
+
+In Kim etal (2022) paper, the authors use 2 mg/kg sodium fluorescien 
+to be injected into the rat. We assume an average rat weight of 277 g.
+Thus, drug injected into rat = 277 g*(1 kg/1000 g)*(2 mg/kg) = 0.554 mg.
+
+Total blood volume in 277 g rat = 20.7 ml. Cardiac output = 85.05 ml/min.
+Thus, the transit time for the dye = 20.7/85.05 min = 0.24339 min.
+Also, the peak concentration of the dye = 0.554/20.7 = 2.6763e-2 mg/ml.
+
+Liver weight is approximately 3.66 +/- 0.65% of total body weight (BW)
+in Brown etal (1997). This gives liver weight = 277 g*0.0366 = 10.138 g.
+We use this parameter from Hall etal (2012) as 11.17 gm (~4.0% of BW).
+Liver weight to volume (density) is approximately 1 g/cm^3, so converting
+gives liver volume = 11.17 cm^3 = 11.17 mL (=10.138 mL based on Brown etal).
+
+Total blood flow to the liver is 108+23 (portal vien + hepatic artery) = 
+131 mL/min/100g of tissue (Brown et al, 1997). Thus, total blood flow to 
+the liver = 131*11.17/100 = 14.633 ml/min (131*10.138/100 = 13.281 ml/min). 
+In Hall etal (2012), the total blood flow to the liver is = 11.8 ml/min.
+We should use Hall etal (2012) blood flow data in the model.
+
+Bruyn etal has Km of Na-Fluo for OATPB1 in rat hepatocytes as 22.5 uM
+= 22.5*10^-6 umol/L * 412.3 g/mol = 9.2768e-3 mg/ml
+
+Lohitnavy et al has vmax and km for mdm2 receptor, but we are estimating,
+because that was for PCB126 chemical
+Km = 7760 nmol/l
+Vmax = 64.6 nmol/min
+
